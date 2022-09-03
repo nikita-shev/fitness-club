@@ -1,0 +1,242 @@
+.card-order_club .personal-data {
+    width: 375px;
+}
+
+.msg-wrap {
+    margin: 10px 0;
+    text-align: center;
+    color: red;
+}
+
+.card-order_club .personal-data .msg-wrap {
+    position: absolute;
+    width: 100%;
+}
+
+.msg-wraper {
+    margin: 15px 0;
+}
+
+#card_order .msg-wraper {
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    transform: translate(-50%);
+}
+
+.card-order .msg-wraper {
+    position: absolute;
+    bottom: -10px !important;
+    left: 50% !important;
+    transform: translate(-50%);
+}
+
+#banner-form .msg-wraper {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+}
+
+#footer_form .msg-wraper {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translate(-50%);
+}
+
+
+.msg-wrap-pos {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+}
+
+.msg-wraper img {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+
+
+.popup .form-content {
+    height: auto;
+}
+
+.popup .form-content .btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header .head .club-select .clubs-list ul {
+    z-index: 1002;
+}
+
+
+.services-slider {
+    position: relative;
+}
+
+.services-slider-de-active {
+    display: none;
+}
+
+.services-slider .arrow-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: url('../images/arrow-slider.svg');
+    border: none;
+    transform: rotate(90deg);
+}
+
+.services-slider .arrow-right {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: url('../images/arrow-slider.svg');
+    border: none;
+    transform: rotate(-90deg);
+}
+
+
+.gallery-slider {
+    position: relative;
+}
+
+.gallery-slider .arrow-left {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: url('../images/arrow-slider.svg');
+    border: none;
+    transform: rotate(90deg);
+}
+
+.gallery-slider .arrow-right {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: url('../images/arrow-slider.svg');
+    border: none;
+    transform: rotate(-90deg);
+}
+
+.slider-dots {
+    max-width: 25%;
+}
+
+.dot {
+    width: 25px;
+    height: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+.dot-active {
+    background: yellow;
+}
+
+
+.gallery-slider .slide:nth-child(n) {
+    display: none;
+}
+
+.slide-active {
+    display: block !important;
+}
+
+.block-fix {
+    display: none;
+    height: 75px;
+}
+
+input {
+    outline: none;
+}
+
+@media (max-width: 992px) {
+    .services-slider .slide:nth-child(n+5) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-dots {
+        display: none;
+    }
+
+    .fixed-gift {
+        top: 60px;
+    }
+
+    .services-slider .slide:nth-child(n+4) {
+        display: none;
+    }
+
+    .block-fix {
+        height: 59px;
+    }
+
+    #card_order .msg-wraper {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #footer_form .msg-wraper {
+        bottom: -50px;
+        left: 50%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .slide {
+        margin: 0 auto !important;
+    }
+
+    .services-slider .slide:nth-child(n+2) {
+        display: none;
+    }
+
+    .gallery-slider .arrow-left {
+        left: -5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .gallery-slider .arrow-right {
+        right: -5px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 479px) {
+    #card_order .msg-wraper {
+        bottom: -80px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #footer_form .msg-wraper {
+        bottom: -70px;
+    }
+
+    .card-order_club .personal-data .msg-wrap {
+        left: 0;
+        top: 110px;
+    }
+}
